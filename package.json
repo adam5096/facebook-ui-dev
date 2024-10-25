@@ -1,0 +1,17 @@
+{
+  "name": "facebookui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tail": "tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+    "prettier": "prettier -w ./src --single-attribute-per-line --tab-width 4 --no-semi"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  }
+}
